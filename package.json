@@ -1,0 +1,28 @@
+{
+  "name": "forbidden-variable-eslint-example",
+  "version": "0.0.0",
+  "description": "Custom linting experiment",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Dominick Gendill",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "test-debug": "mocha tests --recursive --watch --inspect-brk",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  }
+}
